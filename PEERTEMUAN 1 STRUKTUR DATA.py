@@ -10,15 +10,15 @@ Original file is located at
 """
 
 import array as arr
-a =arr.array("1", [1, 2, 3])
-print('the new created array is ;', end="")
+a =arr.array("i", [1, 2, 3])
+print('the new created array is ;', end=" ")
 for i in range(0, 3):
-  print(a[1], en="")
+  print(a[i], end=" ")
 print()
 b = arr.array("d", [2.5, 3.2, 3.3])
-print("\nThe new created array is :, end=")
+print("\nThe new created array is :," end=" ")
 for i in range(0, 3):
-  print(b[1], end="")
+  print(b[i], end=" ")
 
 """2. MENAMBAHKAN ELEMEN KE ARRAY"""
 
